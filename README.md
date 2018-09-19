@@ -13,6 +13,8 @@ Annotation: ...
 
 Also creates html document for each result named like *i-doc.html* recieved from parsed url.
 
+All parsing results will be located in new directory named like *response\<timestamp\>*.
+
 Used:
 - JDK 1.8 (The higher vesrions of JDK are not supported because project was developed on 32 bit OS)
 - Apache Maven 3.5.3
